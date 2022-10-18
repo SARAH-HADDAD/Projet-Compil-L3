@@ -1,0 +1,45 @@
+IDENTIFICATION DIVISION.
+PROGRAM-ID. Prog.
+DATA DIVISION.
+WORKING-STORAGE SECTION.
+	# Mon premier Commentaire !
+	CONST A = 3.
+	CONST C = 'c'.
+	CONST B = (-3.4).
+	CONST D STRING.
+	E FLOAT.
+	F | G INTEGER.
+	Tab LINE 2,SIZE 5 CHAR.
+
+PROCEDURE DIVISION.
+
+	G=2.
+	DISPLAY ("$ $":A,G).
+	G = A + 5 + 3 * 3 - 4 + 3 + (-2).
+	G = 0.
+ 	F = A+A/G.
+    F = A + 5 + 3 * 3 - 4 + 3 + (-2).
+	
+	
+
+	IF( (A .GE. B) .G. (B .GE. C)) :
+
+		IF( NOT (B .GE. C)) :
+
+			E=1.0.	
+
+		ELSE:
+
+			MOVE G TO 8
+
+				F=1.
+			END
+
+		END.
+	ELSE:
+		MOVE F TO A
+			ACCEPT (“&”:@C).
+		END
+	END.
+
+STOP RUN
